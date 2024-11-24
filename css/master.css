@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .row{
+        @apply flex flex-wrap w-full
+    }
+    .list{
+        @apply text-white list-none leading-10
+    }
+ 
+}
+
